@@ -26,4 +26,4 @@ Using Skype with Myo
 
 https://market.myo.com/app/5494c50ee4b009360b85a987/skype-connector
 
-For support, contact Simon Shirley via email@simonshirley.uk
+For support, contact Simon Shirley via foreversonic@me.com
