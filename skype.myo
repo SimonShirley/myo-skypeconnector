@@ -271,8 +271,15 @@ function currentConversation:shuttleJumpBackward()
 end
 
 function onForegroundWindowChange(app, title)
-    return platform == "MacOS" and app == "com.skype.skype" or
-           platform == "Windows" and app == "skype.exe"
+    if platform == "MacOS" and app == "com.skype.skype" then
+        return true
+    end
+
+    if platform == "Windows" and app == "skype.exe" then
+        return true
+    end
+
+    return false
 end
 
 function activeAppName()
