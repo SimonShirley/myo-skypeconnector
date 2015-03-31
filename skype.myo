@@ -275,7 +275,7 @@ function onForegroundWindowChange(app, title)
         return true
     end
 
-    if platform == "Windows" and app == "skype.exe" then
+    if platform == "Windows" and string.lower(app) == "skype.exe" then
         return true
     end
 
