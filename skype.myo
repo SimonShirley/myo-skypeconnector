@@ -24,7 +24,7 @@ function Conversation:callHangUp()
         if platform == "MacOS" then
             myo.keyboard("h", "press", "shift", "command")
         elseif platform == "Windows" then
-            myo.keyboard("h", "pagedown", "alt")
+            myo.keyboard("pagedown", "press", "alt")
         end
 
 	inCall = false
